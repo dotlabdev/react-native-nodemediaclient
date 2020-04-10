@@ -24,6 +24,7 @@
   if(self) {
     _np = [[NodePlayer alloc] initWithPremium:[RCTNodeMediaClient premium]];
     [_np setPlayerView:self];
+    [_np setAudioEnable:false];
     _autoplay = NO;
     _inputUrl = nil;
   }
